@@ -1,0 +1,25 @@
+* 
+ * File:   AutoConfByPlatformSelect.h
+ * Author: agus
+ *
+ * Created on July 16, 2013, 1:08 PM
+ */
+
+#ifndef AUTOCONFBYPLATFORMSELECT_H
+#define	AUTOCONFBYPLATFORMSELECT_H
+
+
+#define cNGD_PLATFORM
+#define fNODE_PLATFORM
+#define fNODE_Ext_PLATFORM
+#define MANUAL_PLATFORM
+
+
+
+
+
+
+
+#endif	/* AUTOCONFBYPLATFORMSELECT_H */
+
+

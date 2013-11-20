@@ -1,0 +1,57 @@
+/* 
+ * File:   AutoConfByPlatformSelect.h
+ * Author: agus
+ *
+ * Created on July 16, 2013, 1:08 PM
+ */
+
+#ifndef AUTOCONFBYPLATFORMSELECT_H
+#define	AUTOCONFBYPLATFORMSELECT_H
+
+
+#define cNGD_PLATFORM
+//#define fNODE_PLATFORM
+//#define fNODE_Ext_PLATFORM
+//#define MANUAL_PLATFORM
+
+
+#if defined cNGD_PLATFORM
+
+//*********** INTERFACE N1 *****************************************************
+    #define MRF49XA_1
+    #define MRF49XA_1_IN_434
+
+    //#define MRF49XA_1_RATE_1200
+    //#define MRF49XA_1_RATE_9600
+    //#define MRF49XA_1_RATE_19200
+    //#define MRF49XA_1_RATE_38400
+    //#define MRF49XA_1_RATE_57600
+    #define MRF49XA_1_RATE_115200
+
+    #define MIWI_0434_RI
+
+//*********** INTERFACE N2 *****************************************************
+    #define MRF49XA_2
+    #define MRF49XA_2_IN_868
+
+     //#define MRF49XA_2_RATE_1200
+    #define MRF49XA_2_RATE_9600
+    //#define MRF49XA_2_RATE_19200
+    //#define MRF49XA_2_RATE_38400
+    //#define MRF49XA_2_RATE_57600
+    //#define MRF49XA_2_RATE_115200
+
+    #define MIWI_0868_RI
+//*********** INTERFACE N3 *****************************************************
+
+    #define MRF24J40
+    #define MIWI_2400_RI
+
+
+
+#endif
+
+
+#endif	/* AUTOCONFBYPLATFORMSELECT_H */
+
+

@@ -1,0 +1,5 @@
+#ifndef  _USB_CONSOLE_H_
+#define  _USB_CONSOLE_H_
+
+int USB_Console_Printf(unsigned char* texto);
+void USB_Console_Init(void);
